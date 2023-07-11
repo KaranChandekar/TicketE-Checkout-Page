@@ -1,4 +1,4 @@
-function Minus() {
+function Minus({className, onClick}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,8 @@ function Minus() {
       height="24"
       fill="none"
       viewBox="0 0 24 24"
+      className={className}
+      onClick={onClick}
     >
       <path
         fill="#474747"
