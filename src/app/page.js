@@ -1,8 +1,8 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
-import QuestionnaireSection from "@/components/QuestionnaireSection";
-import FeatureSection from "@/components/FeatureSection";
-import Footer from "@/components/Footer";
+import QuestionnaireSection from "../components/QuestionnaireSection";
+import FeatureSection from "../components/FeatureSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
