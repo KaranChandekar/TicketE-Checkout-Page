@@ -13,13 +13,12 @@ const Questionnaire = ({ question, answer, isLast }) => {
 
   const handleClick = () => {
     setShow(!show);
-    console.log(show);
   };
 
   return (
     <div className={containerClasses}>
       <div className="flex justify-between">
-        <h3 className="text-dark-gray text-sm sm:text-lg font-semibold">
+        <h3 className="text-dark-gray text-sm md:text-lg font-semibold">
           {question}
         </h3>
         {show ? (
@@ -31,7 +30,7 @@ const Questionnaire = ({ question, answer, isLast }) => {
       <p
         className={`${
           show
-            ? "text-primary-gray text-xs mt-3 sm:text-base max-w-[666px]"
+            ? "text-primary-gray text-xs mt-3 md:text-base max-w-[666px]"
             : "hidden"
         }`}
       >

@@ -8,7 +8,7 @@ const Navbar = () => {
 
       <div className="flex items-center justify-center gap-1">
         <Question />
-        <span className="text-dark-gray hidden sm:inline-block">Help</span>
+        <span className="text-dark-gray hidden md:inline-block">Help</span>
       </div>
     </header>
   );

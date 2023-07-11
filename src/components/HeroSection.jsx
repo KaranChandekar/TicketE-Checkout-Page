@@ -10,9 +10,9 @@ import ShieldCheckered from "./svg/ShieldCheckered";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-between sm:flex-row flex-col-reverse mt-10 sm:mt-24 pb-6 mb-10 sm:mb-16 border-b border-solid border-light-gray">
-      <div className="sm:border-r sm:border-solid sm:border-light-gray sm:pr-6 mt-10 sm:mt-0">
-        <h1 className="text-dark-gray text-5xl font-semibold mb-16 hidden sm:block">
+    <div className="flex justify-between md:flex-row flex-col-reverse mt-10 md:mt-24 pb-6 mb-10 md:mb-16 border-b border-solid border-light-gray">
+      <div className="md:border-r md:border-solid md:border-light-gray md:pr-6 mt-10 md:mt-0">
+        <h1 className="text-dark-gray text-5xl font-semibold mb-16 hidden md:block">
           Confirm and pay
         </h1>
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
           para="We'll be sending your tickets to the details below. Booking for a friend? Add their details."
           className="mb-8"
         />
-        <div className="py-2 grid sm:grid-cols-2 gap-6 mb-11">
+        <div className="py-2 grid xl:grid-cols-2 gap-6 mb-11">
           <InputField
             type="text"
             label="<Full Name>"
@@ -45,7 +45,7 @@ const HeroSection = () => {
           para="We need a few more details to complete your reservation."
           className="mb-8"
         />
-        <div className="py-2 grid sm:grid-cols-2 gap-6 mb-11">
+        <div className="py-2 grid xl:grid-cols-2 gap-6 mb-11">
           <InputField
             type="text"
             label="<Full Name>"
@@ -67,14 +67,14 @@ const HeroSection = () => {
         <div className="flex justify-between items-center mb-7">
           <div className="flex items-center gap-5">
             <CreditCard />
-            <span className="text-dark-gray font-semibold text-sm sm:text-base">
+            <span className="text-dark-gray font-semibold text-sm md:text-base">
               Credit & debit card
             </span>
           </div>
 
           <RadioButtonFill />
         </div>
-        <div className="py-2 grid sm:grid-cols-2 gap-6 mb-6">
+        <div className="py-2 grid xl:grid-cols-2 gap-6 mb-6">
           <InputField
             type="text"
             label="<Name of Card>"
@@ -99,7 +99,7 @@ const HeroSection = () => {
         <div className="flex justify-between items-center mb-10 py-6 border-y border-solid border-light-gray">
           <div className="flex items-center gap-5">
             <Klarna />
-            <span className="text-dark-gray font-semibold text-sm sm:text-base">
+            <span className="text-dark-gray font-semibold text-sm md:text-base">
               Klarna
             </span>
           </div>
@@ -108,7 +108,7 @@ const HeroSection = () => {
         </div>
 
         <div className="mb-10">
-          <h2 className="text-lg sm:text-2xl font-semibold mb-1 text-dark-gray">
+          <h2 className="text-lg md:text-2xl font-semibold mb-1 text-dark-gray">
             Total: 25,000
           </h2>
           <p className="text-xs text-primary-gray underline">
@@ -132,14 +132,14 @@ const HeroSection = () => {
             & the <span className="text-[#1733B6]">activity provider.</span>
           </p>
 
-          <button className="font-semibold text-white bg-[#0A0A0A] flex items-center justify-center gap-2 rounded-xl px-5 py-3 w-full sm:w-auto">
+          <button className="font-semibold text-white bg-[#0A0A0A] flex items-center justify-center gap-2 rounded-xl px-5 py-3 w-full md:w-auto">
             Confirm and pay <ShieldCheckered />
           </button>
         </div>
       </div>
 
       <div className="flex flex-col gap-12">
-        <h1 className="text-dark-gray text-3xl font-semibold mb-10 sm:hidden">
+        <h1 className="text-dark-gray text-3xl font-semibold mb-10 md:hidden">
           Confirm and pay
         </h1>
         <DateTime />
