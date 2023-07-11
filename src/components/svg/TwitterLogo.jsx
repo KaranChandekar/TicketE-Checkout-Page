@@ -1,4 +1,4 @@
-function TwitterLogo() {
+function TwitterLogo({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,7 @@ function TwitterLogo() {
       height="20"
       fill="none"
       viewBox="0 0 20 20"
+      className={className}
     >
       <path
         fill="#EBEBEB"

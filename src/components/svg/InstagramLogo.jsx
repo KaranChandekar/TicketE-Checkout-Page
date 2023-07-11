@@ -1,4 +1,4 @@
-function InstagramLogo() {
+function InstagramLogo({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,7 @@ function InstagramLogo() {
       height="20"
       fill="none"
       viewBox="0 0 20 20"
+      className={className}
     >
       <path fill="#EBEBEB" d="M10 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"></path>
       <path

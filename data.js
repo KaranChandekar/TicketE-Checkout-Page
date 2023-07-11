@@ -48,22 +48,22 @@ export const questionnaireData = [
 
 export const features = [
   {
-    icon: <CircleWavyCheck />,
+    icon: <CircleWavyCheck className="w-6 sm:w-auto" />,
     title: "Official tickets",
     description: "Authorized reseller to top attraction",
   },
   {
-    icon: <ChatsCircle />,
+    icon: <ChatsCircle className="w-6 sm:w-auto" />,
     title: "24/7 dedicated support",
     description: "We're here to help, talk to an expert",
   },
   {
-    icon: <FeatCalendarBlank />,
+    icon: <FeatCalendarBlank className="w-6 sm:w-auto" />,
     title: "Flexible bookings",
     description: "Book stress-free with easy cancellation",
   },
   {
-    icon: <FeatShieldCheckered />,
+    icon: <FeatShieldCheckered className="w-6 sm:w-auto" />,
     title: "100% secure payments",
     description: "Internationally recognized encrypted payment process",
   },

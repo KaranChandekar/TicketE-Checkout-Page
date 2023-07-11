@@ -4,9 +4,9 @@ import { questionnaireData } from "../../data";
 
 const QuestionnaireSection = () => {
   return (
-    <div className="flex justify-between mb-16 border-b border-solid border-light-gray">
-      <div className="pr-6">
-        <h2 className="text-dark-gray text-2xl font-semibold mb-8">
+    <div className="flex sm:flex-row flex-col justify-between mb-10 sm:mb-16 border-b border-solid border-light-gray gap-10 sm:gap-0 pb-6 sm:pb-0">
+      <div className="sm:pr-6">
+        <h2 className="text-dark-gray text-lg sm:text-2xl font-semibold mb-6 sm:mb-8">
           Frequently asked questions
         </h2>
         {questionnaireData.map(({ question, answer }, index) => (

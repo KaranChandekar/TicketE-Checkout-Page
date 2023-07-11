@@ -2,7 +2,7 @@ import Tag from "./svg/Tag";
 
 const TotalPrice = () => {
   return (
-    <div className="text-dark-gray w-[360px]">
+    <div className="text-dark-gray sm:w-[360px] w-full">
       <h3 className="font-semibold text-lg mb-8">Tickets overview</h3>
       <div className="flex items-center justify-between mb-4">
         <span>pax type</span>

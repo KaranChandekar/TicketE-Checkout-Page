@@ -7,10 +7,11 @@ import TwitterLogo from "./svg/TwitterLogo";
 const Footer = () => {
   return (
     <footer className="bg-[#0a0a0a]">
-      <div className="max-w-7xl pt-16 mx-auto px-10">
+      <div className="max-w-7xl pt-10 sm:pt-16 mx-auto px-6 sm:px-10">
         <FooterLogo />
-        <div className="border-b border-solid border-[#999999] mt-20 flex items-center justify-between py-10">
-          <div className="flex items-center gap-4 text-[#ebebeb]">
+
+        <div className="sm:border-b sm:border-solid sm:border-[#999999] mt-10 sm:mt-20 flex flex-col-reverse sm:flex-row sm:items-center justify-between sm:py-10 pb-10 gap-10 sm:gap-0">
+          <div className="flex flex-row items-center gap-4 text-xs sm:text-base text-[#ebebeb]">
             <Link className="underline underline-offset-4" href="/">
               &copy; Tickete Inc.
             </Link>
@@ -26,13 +27,13 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-3">
             <Link href="/">
-              <InstagramLogo />
+              <InstagramLogo className="w-8 h-8 sm:w-auto sm:h-auto" />
             </Link>
             <Link href="/">
-              <FacebookLogo />
+              <FacebookLogo className="w-8 h-8 sm:w-auto sm:h-auto" />
             </Link>
             <Link href="/">
-              <TwitterLogo />
+              <TwitterLogo className="w-8 h-8 sm:w-auto sm:h-auto" />
             </Link>
           </div>
         </div>

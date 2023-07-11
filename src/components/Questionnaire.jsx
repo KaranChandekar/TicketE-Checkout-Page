@@ -8,10 +8,10 @@ const Questionnaire = ({ question, answer, isLast }) => {
   return (
     <div className={containerClasses}>
       <div className="max-w-[666px]">
-        <h3 className="text-dark-gray text-lg font-semibold mb-3">
+        <h3 className="text-dark-gray text-sm sm:text-lg font-semibold mb-3">
           {question}
         </h3>
-        <p className="text-primary-gray">{answer}</p>
+        <p className="text-primary-gray text-xs sm:text-base">{answer}</p>
       </div>
       <Minus />
     </div>

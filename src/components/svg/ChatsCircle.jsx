@@ -1,4 +1,4 @@
-function ChatsCircle() {
+function ChatsCircle({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +6,7 @@ function ChatsCircle() {
       height="48"
       fill="none"
       viewBox="0 0 48 48"
+      className={className}
     >
       <path
         fill="#7F2D0F"
