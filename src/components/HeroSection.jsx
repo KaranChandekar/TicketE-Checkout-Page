@@ -10,7 +10,7 @@ import ShieldCheckered from "./svg/ShieldCheckered";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-between mt-24 border-b border-solid border-light-gray">
+    <div className="flex justify-between mt-24 pb-6 mb-16 border-b border-solid border-light-gray">
       <div className="border-r border-solid border-light-gray pr-6">
         <h1 className="text-dark-gray text-5xl font-semibold mb-16">
           Confirm and pay
@@ -121,7 +121,7 @@ const HeroSection = () => {
           </span>
         </div>
 
-        <div className="mb-6">
+        <div>
           <p className="text-xs text-primary-gray mb-3">
             With payment, you agree to the general{" "}
             <span className="text-[#1733B6]">
