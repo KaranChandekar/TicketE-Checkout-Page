@@ -1,5 +1,7 @@
+import DateTime from "./DateTime";
 import HeadingAndPara from "./HeadingAndPara";
 import InputField from "./InputField";
+import TotalPrice from "./TotalPrice";
 import CreditCard from "./svg/CreditCard";
 import Klarna from "./svg/Klarna";
 import RadioButtonEmpty from "./svg/RadioButtonEmpty";
@@ -8,7 +10,7 @@ import ShieldCheckered from "./svg/ShieldCheckered";
 
 const HeroSection = () => {
   return (
-    <div className="flex mt-24 border-b border-solid border-light-gray">
+    <div className="flex justify-between mt-24 border-b border-solid border-light-gray">
       <div className="border-r border-solid border-light-gray pr-6">
         <h1 className="text-dark-gray text-5xl font-semibold mb-16">
           Confirm and pay
@@ -133,7 +135,11 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div>{/* Right Part */}</div>
+
+      <div className="flex flex-col items-center gap-12">
+        <DateTime />
+        <TotalPrice />
+      </div>
     </div>
   );
 };
