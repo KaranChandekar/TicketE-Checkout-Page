@@ -1,6 +1,6 @@
 import Help from "./Help";
 import Questionnaire from "./Questionnaire";
-import questionnaireData from "../../questionnaire-data";
+import { questionnaireData } from "../../data";
 
 const QuestionnaireSection = () => {
   return (

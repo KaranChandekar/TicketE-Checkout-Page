@@ -1,14 +1,14 @@
 import CalendarBlank from "./svg/CalendarBlank";
 import Clock from "./svg/Clock";
 import Ticket from "./svg/Ticket";
-import women from "../images/Women.png"
+import women from "../images/Women.png";
 import Image from "next/image";
 
 const DateTime = () => {
   return (
     <div className="max-w-[360px] text-dark-gray font-semibold border-b border-solid border-light-gray">
       <div className="w-full mb-3">
-        <Image className="w-full rounded-xl" src={women} alt="women" />
+        <Image className="w-full rounded-xl" src={women} alt="women" priority />
       </div>
 
       <h3 className="text-lg">

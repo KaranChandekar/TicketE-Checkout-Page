@@ -1,4 +1,9 @@
-const questionnaireData = [
+import ChatsCircle from "@/components/svg/ChatsCircle";
+import CircleWavyCheck from "@/components/svg/CircleWavyCheck";
+import FeatCalendarBlank from "@/components/svg/FeatCalendarBlank";
+import FeatShieldCheckered from "@/components/svg/FeatShieldCheckered";
+
+export const questionnaireData = [
   {
     question: "Are my tickets transferable?",
     answer:
@@ -41,4 +46,25 @@ const questionnaireData = [
   },
 ];
 
-export default questionnaireData;
+export const features = [
+  {
+    icon: <CircleWavyCheck />,
+    title: "Official tickets",
+    description: "Authorized reseller to top attraction",
+  },
+  {
+    icon: <ChatsCircle />,
+    title: "24/7 dedicated support",
+    description: "We're here to help, talk to an expert",
+  },
+  {
+    icon: <FeatCalendarBlank />,
+    title: "Flexible bookings",
+    description: "Book stress-free with easy cancellation",
+  },
+  {
+    icon: <FeatShieldCheckered />,
+    title: "100% secure payments",
+    description: "Internationally recognized encrypted payment process",
+  },
+];
