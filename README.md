@@ -26,7 +26,6 @@ The TicketE Checkout Page is a project I developed as part of my exploration int
 
 - Next.js: A React framework for server-rendered applications.
 - Tailwind CSS: A utility-first CSS framework for rapid UI development.
-- React Datepicker: A flexible datepicker component for React applications.
 
 ## 📸 Screenshots
 
