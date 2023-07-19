@@ -30,6 +30,8 @@ The TicketE Checkout Page is a project I developed as part of my exploration int
 
 ## 📸 Screenshots
 
+![Screenshot (52)](https://github.com/KaranChandekar/TicketE-Checkout-Page/assets/93200960/f2d3dd0f-ca0b-4df5-b4a5-cd1ce2407b40)
+
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
